@@ -1,14 +1,23 @@
 # spotify
 Spotify playlist by terraform
 This project uses Terraform to automatically create different Spotify playlists for various times and events, like morning, evening, and party night. Terraform helps automate and manage these playlists.
+
 **Prerequisites**
+
 1.Terraform Installed: Ensure Terraform is installed on your machine.
+
 2.Docker Installed: Make sure Docker is installed and running.
+
 3.Spotify Account: You need a Spotify account (without premium access)
+
 4.Spotify Developer Account: Register and create an application to get the Client ID and Client Secret.
+
 5.Spotify Provider for Terraform: Install and configure the Spotify provider for Terraform.
+
 6.VS Code Editor: Recommended for editing Terraform files.
+
 **Steps to Complete the Project**
+
 1.Creating Terraform Code Start by setting up your Terraform project. Create a new directory for your Terraform project and navigate to it in your terminal. Create a file named main.tf.
 
 2.Define Provider In main.tf, define the Spotify provider: provider "spotify" { api_key = "?" }
@@ -56,4 +65,5 @@ c. Apply the Terraform configuration: terraform apply (You can either skip the c
 After applying the Terraform configuration, open your Spotify account and verify that the playlists have been created and populated with the specified tracks.
 
 **Conclusion**
+
 By following these steps, you can use Terraform to automatically create and manage multiple Spotify playlists. This saves you time and makes sure all your playlists are consistent. You can also customize the playlists and tracks to match different occasions.
